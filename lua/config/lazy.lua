@@ -21,6 +21,8 @@ require("config.globals")
 require("config.keymaps")
 require("config.autocmds")
 
+local plugin_dir = "plugins"
+
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
