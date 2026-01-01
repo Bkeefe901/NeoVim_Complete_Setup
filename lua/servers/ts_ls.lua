@@ -16,7 +16,7 @@ return function( capabilities)
 			"javascriptreact",
 		},
 		settings = {
-			typescript = {
+      typescript = {
 				indentStyle = "space",
 				indentSize = 2,
 			},
