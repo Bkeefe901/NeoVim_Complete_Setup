@@ -18,6 +18,18 @@ vim.api.nvim_create_autocmd("BufReadPost", {
 	end,
 })
 
+-- Changing some of the symantic color themes
+--vim.api.nvim_create_autocmd("ColorScheme", {
+  --callback = function()
+    ---- Function names
+    --vim.api.nvim_set_hl(0, "@lsp.type.function", {fg = "d65d0e"})
+--})
+
+
+
+
+
+
 -- Highlight the yanked text for 200ms
 local highlight_yank_group = vim.api.nvim_create_augroup("HighlightYank", {})
 vim.api.nvim_create_autocmd("TextYankPost", {
