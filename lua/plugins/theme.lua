@@ -23,6 +23,11 @@ return {
   opts = {
     -- keep or add any gruvbox options here
     contrast = "hard",
+    transparent_mode = true,
+    styles = {
+      sidebars = "transparent",
+      floats = "transparent",
+    }
   },
 
   config = function(_, opts)
@@ -38,7 +43,7 @@ return {
     vim.api.nvim_set_hl(0, "@lsp.type.function", { fg = "#fabd2f" })
 
     -- Keywords
-vim.api.nvim_set_hl(0, "@lsp.type.keyword", { fg = "#d65d0e" })
+    vim.api.nvim_set_hl(0, "@lsp.type.keyword", { fg = "#d65d0e" })
     -- Variables
    -- vim.api.nvim_set_hl(0, "@lsp.type.variable", { fg = "#b8bb26" })
 
